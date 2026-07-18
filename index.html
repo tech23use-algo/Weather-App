@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sky">
+        <div class="drift drift--one"></div>
+        <div class="drift drift--two"></div>
+        <div class="drift drift--three"></div>
+        <div class="sun-glow"></div>
+    </div>
+    <div id="container">
+        <span class="eyebrow">Live Forecast</span>
+        <h2>WEATHER APP</h2>
+        <div id="searchCity">
+            <input type="text" placeholder="Search a city" id="cityBox">
+            <button id="search">SEARCH</button>
+        </div>
+        <div id="information">
+            <div class="info-row">
+                <span class="info-icon" aria-hidden="true">&#127777;&#65039;</span>
+                <p id="temperature">Temperature: </p>
+            </div>
+            <div class="info-row">
+                <span class="info-icon" aria-hidden="true">&#9925;&#65039;</span>
+                <p id="weather">Weather: </p>
+            </div>
+            <div class="info-row">
+                <span class="info-icon" aria-hidden="true">&#128167;</span>
+                <p id="humidity">Humidity: </p>
+            </div>
+            <div class="info-row">
+                <span class="info-icon" aria-hidden="true">&#127788;&#65039;</span>
+                <p id="windSpeed">Wind Speed: </p>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
